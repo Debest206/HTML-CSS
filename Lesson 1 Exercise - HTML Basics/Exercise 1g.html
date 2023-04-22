@@ -4,17 +4,52 @@
     <title>
       HTML Basics
     </title>
+    <style>
+      .amazon-link{
+        color: rgb(0, 113, 133);
+        font-weight: bold;
+      }
+
+      .title{
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      .price{
+        color: rgb( 0, 118, 0);
+        font-weight: bold;
+      }
+
+      .cart-button{
+        background-color: rgb(255, 216, 20);
+        border:none;
+        height: 30px;
+        width: 110px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-right: 8px;
+      }
+
+      .buy-button{
+        background-color: rgb(255, 164, 28);
+        border: none;
+        height: 30px;
+        width: 110px;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-    <a href="https://www.amazon.com/ ">
+    <a class="amazon-link" href="https://www.amazon.com/ ">
       Back to Amazon
     </a>
 
-    <p>
+    <p class="title">
       Nike Black Running Shoes
     </p>
 
-    <p>
+    <p class="price">
       $39 - in stock.
     </p>
 
@@ -22,11 +57,11 @@
       Free delivery tomorrow.
     </p>
     
-    <button>
+    <button class="cart-button">
       Add to Cart
     </button>
 
-    <button>
+    <button class="buy-button">
       Buy now
     </button>
   </body>
